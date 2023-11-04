@@ -27,7 +27,7 @@ document.getElementById("submit-button").addEventListener("click", function () {
 
 
   
-    const result = document.getElementById("result");
+    const result = document.getElementById("resultado");
     result.innerHTML = `Você acertou ${pontuacao} de 5 perguntas.`;
   });
 
